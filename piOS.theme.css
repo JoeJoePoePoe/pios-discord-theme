@@ -21,12 +21,12 @@
     --pios-title-text:      "piOS v2.1.01p";
 
     --crt-stripe:   block;
-    --crt-scanline: none;   /* ⛐ This effect is performance-intensive. */
+    --crt-scanline: block;   /* ⛐ This effect is performance-intensive. */
     --crt-flicker:  none;   /* ⚠ This is a fast flickering effect and may not be suitable for those with photosensitive epilepsy. */
 }
 
 .theme-dark {
-    --pios-background-color:    #060606;
+    --pios-background-color:    #030303;
     --pios-bright-color:        #FFFFFF;
     --pios-middle-color:        #D3D3D3;
     --pios-dim-color:           #808080;
